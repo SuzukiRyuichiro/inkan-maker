@@ -13,7 +13,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ### Linting and Type Checking
 After making changes, always run:
 - `deno task lint` - Check for linting errors
-- `tsc -b` - Type check (part of build process)
+- `deno task build` - Type check and build (includes TypeScript compilation)
 
 ## Architecture
 
